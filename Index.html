@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Midad-Store</title>
+<link rel="stylesheet" href="C:\Users\Yamanda\Desktop\MidadTask\css\style.css">
+</head>
+<body>
+<header class="navbar">
+<nav class="nav-content">
+<a href="#" class="logo">Midad store</a>
+<ul class="nav-links">
+<li><a href="#products-section">products</a></li>
+<li><a href="#add-product-section">Add a product</a></li>
+<li><a href="#footer">contact us</a></li>
+<li>
+<a href="#" id="cart-icon">
+<img src="https://img.icons8.com/ios-filled/50/ffffff/shopping-cart.png" alt="Cart" class="cart-img">
+<span id="cart-count" class="cart-count">0</span>
+</a>
+</li>
+</ul>
+</nav>
+</header>
+
+<main class="container">
+<section id="products-section" class="products-grid">
+<h2>our products</h2>
+<div id="product-list" class="product-cards-container">
+</div>
+</section>
+
+<section id="add-product-section" class="add-product-form-section">
+<h2>Add a new product</h2>
+<form id="add-product-form" class="add-product-form">
+<div class="form-group">
+<label for="product-title">product's name:</label>
+<input type="text" id="product-title" required>
+</div>
+<div class="form-group">
+<label for="product-price">Price:</label>
+<input type="number" id="product-price" step="0.01" required>
+</div>
+<div class="form-group">
+<label for="product-description">Describe:</label>
+<textarea id="product-description" rows="5" required></textarea>
+
+<div class="form-group">
+<label for="product-category">category</label>
+<select id="product-category" name="product-category" required>
+<option value="">select a category </option>
+<option value="electronics">Electronics</option>
+<option value="jewelery">jewellery</option>
+<option value="men's clothing">men's clothes</option>
+<option value="women's clothing">women's clothes</option>
+</select>
+</div>
+<div class="form-group">
+<label for="product-image">Image link (URL):</label>
+<input type="url" id="product-image" required>
+</div>
+<button type="submit" class="btn-submit">Add the product </button>
+</form>
+</section>
+</main>
+
+<div id="cart-modal" class="cart-modal">
+<div class="cart-modal-content">
+<span class="close-button">&times;</span>
+<h3>cart of shopping</h3>
+<div id="cart-items" class="cart-items-container">
+</div>
+<div class="cart-summary">
+<h4>الإجمالي: <span id="cart-total">0.00</span>S.P</h4>
+<button class="btn-checkout">Confirm purchasing</button>
+</div>
+</div>
+</div>
+
+<footer id="footer" class="footer">
+<div class="container">
+<div class="footer-content">
+<div class="footer-section about">
+<h3>About us</h3>
+<p>Midad Store is your destination for online shopping, offering you the best products at competitive prices</p>
+<div class="social-icons">
+<a href="https://www.facebook.com/edumidad"><i class="fab fa-facebook"></i></a>
+<a href="https://www.twitter.com/edumidad"><i class="fab fa-twitter"></i></a>
+<a href="https://www.instagram.com/edumidad"><i class="fab fa-instagram"></i></a>
+<a href="https://www.linkedin.com/edumidad"><i class="fab fa-linkedin"></i></a>
+</div>
+</div>
+<div class="footer-section links">
+<h3>Fast links </h3>
+<ul>
+<li><a href="#">Main</a></li>
+<li><a href="#products-section">Products</a></li>
+<li><a href="#add-product-section">Adding a product</a></li>
+<li><a href="privciy.html">Privacy</a></li>
+<li><a href="terms-of-service.html">Using terms</a></li>
+</ul>
+</div>
+<div class="footer-section contact">
+<h3>Contact us</h3>
+<p><i class="fas fa-map-marker-alt"></i>The address: Syrian Arabic Republic</p>
+<p><i class="fas fa-phone"></i> Phone: 0963994415022</p>
+<p><i class="fas fa-envelope"></i> Elecronic Mail : midad@gmail.com</p>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy;  Midad Online Store. All rights reserved.</p>
+</div>
+</div>
+</footer>
+
+<script src="C:\Users\Yamanda\Desktop\MidadTask\javaScript\api.js"></script>
+<script src="C:\Users\Yamanda\Desktop\MidadTask\javaScript\cart.js"></script>
+<script src="C:\Users\Yamanda\Desktop\MidadTask\javaScript\main.js"></script>
+</body>
+</html>
