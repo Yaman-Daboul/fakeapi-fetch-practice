@@ -39,8 +39,14 @@ Run the project directly in your browser
 (No server or additional setup required)
 
 📷 Screenshots
+
+### Home Page
 <img width="1887" height="895" alt="image" src="https://github.com/user-attachments/assets/629681e9-44be-4715-8d8b-3a3d92110720" />
+
+### Add a new Product Page
 <img width="1459" height="894" alt="image" src="https://github.com/user-attachments/assets/bf2e35ab-cdba-47ba-88db-0827579dd3a4" />
+
+### Cart Page
 <img width="748" height="852" alt="Screenshot 2026-11-04 051511" src="https://github.com/user-attachments/assets/f54d8b0f-f200-4ca5-ba21-62151964987a" />
 
 
