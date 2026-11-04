@@ -20,7 +20,7 @@ CSS3
 
 JavaScript (ES6)
 
-Fake Store API (or the API you used)
+Fake Store API ('https://fakestoreapi.com')
 
 🚀 How to Run the Project
 Clone the repository:
